@@ -1,0 +1,10 @@
+{
+    "extends": ["tslint-config-standard"],
+    "rules": {
+        // "quotemark": [true, "single", "avoid-escape", "jsx-single", "jsx-double"],
+        "ter-indent": [
+            true,
+            4
+        ]
+    }
+}
