@@ -14,7 +14,8 @@ const config = {
         alias: {
             '@': commonPaths.rootPath,
             '@img': commonPaths.imagesPath,
-            '@css' : commonPaths.cssPath
+            '@css': commonPaths.cssPath,
+            '@components': commonPaths.componentsPath
         }
     },
     devServer:{

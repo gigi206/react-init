@@ -9,8 +9,14 @@
         "sourceMap": true,
         "strict": true,
         "allowJs": true,
-        "jsx": "react"
-    },
+        "jsx": "react",
+        "baseUrl": ".",
+        "paths": {
+          "@/*": ["src/*"],
+          "@img/*": ["src/img/*"],
+          "@css/*": ["src/styles/*"],
+          "@components/*": ["src/components/*"]
+        }    },
     "exclude": [
         "node_modules"
     ]

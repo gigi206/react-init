@@ -3,10 +3,10 @@ import React from 'react'
 import { render } from 'react-dom'
 
 // COMPONENTS
-import App from './components/App'
+import App from '@components/App'
 
 // STYLES
-// import './styles/app.scss'
+// import '@css/app.scss'
 
 render(
     <App />,
